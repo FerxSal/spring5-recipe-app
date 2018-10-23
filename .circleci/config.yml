@@ -14,7 +14,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/postgres:9.4
 
-    working_directory: chown -R $fernando:$fernando /home/fernando/Desktop/Spring_Certification/spring5-recipe-app
+    working_directory: /home/fernando/Desktop/Spring_Certification/circleci/spring5-recipe-app
 
     environment:
       # Customize the JVM maximum heap limit
